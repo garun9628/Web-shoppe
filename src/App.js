@@ -1,9 +1,9 @@
 import "./App.css";
-import { Login } from "./features/auth/components/Login";
+import LoginPage from "./pages/LoginPage";
 import { Counter } from "./features/counter/Counter";
 import SignupPage from "./pages/SignupPage";
-import Signup from "./features/auth/components/Signup";
 import Home from "./pages/Home.js";
+import CartPage from "./pages/CartPage";
 
 import {
   createBrowserRouter,
@@ -19,11 +19,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <Login></Login>,
+    element: <LoginPage></LoginPage>,
   },
   {
     path: "/signup",
-    element: <Signup></Signup>,
+    element: <SignupPage></SignupPage>,
+  },
+  {
+    path: "/cart",
+    element: <CartPage></CartPage>,
   },
 ]);
 
