@@ -2338,49 +2338,275 @@
     {
       "email": "test@gmail.com",
       "password": "Qwerty98765@",
+      "addresses": [
+        {
+          "name": "arun ",
+          "email": "test@gmail.com",
+          "phone": "8324838423",
+          "street": "ashdfsdf",
+          "city": "rath",
+          "state": "uttar pradesh",
+          "pinCode": "210431"
+        },
+        {
+          "name": "afsfdadsf",
+          "email": "test@gmail.com",
+          "phone": "4545345343",
+          "street": "asfdfdf",
+          "city": "asdfasdf",
+          "state": "adffga",
+          "pinCode": "234322"
+        }
+      ],
       "id": 1
     }
   ],
   "cart": [
     {
-      "id": 2,
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/2/1.jpg",
-        "https://i.dummyjson.com/data/products/2/2.jpg",
-        "https://i.dummyjson.com/data/products/2/3.jpg",
-        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-      ],
-      "quantity": 4,
-      "user": 1
-    },
-    {
-      "id": 32,
-      "title": "Sofa for Coffe Cafe",
-      "description": "Ratttan Outdoor furniture Set Waterproof  Rattan Sofa for Coffe Cafe",
-      "price": 50,
-      "discountPercentage": 15.59,
-      "rating": 4.74,
-      "stock": 30,
-      "brand": "Ratttan Outdoor",
-      "category": "furniture",
-      "thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/32/1.jpg",
-        "https://i.dummyjson.com/data/products/32/2.jpg",
-        "https://i.dummyjson.com/data/products/32/3.jpg",
-        "https://i.dummyjson.com/data/products/32/thumbnail.jpg"
+        "https://i.dummyjson.com/data/products/8/1.jpg",
+        "https://i.dummyjson.com/data/products/8/2.jpg",
+        "https://i.dummyjson.com/data/products/8/3.jpg",
+        "https://i.dummyjson.com/data/products/8/4.jpg",
+        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
       ],
       "quantity": 1,
-      "user": 1
+      "user": 1,
+      "id": 1
+    },
+    {
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/8/1.jpg",
+        "https://i.dummyjson.com/data/products/8/2.jpg",
+        "https://i.dummyjson.com/data/products/8/3.jpg",
+        "https://i.dummyjson.com/data/products/8/4.jpg",
+        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": 1,
+      "id": 2
+    },
+    {
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/9/1.jpg",
+        "https://i.dummyjson.com/data/products/9/2.png",
+        "https://i.dummyjson.com/data/products/9/3.png",
+        "https://i.dummyjson.com/data/products/9/4.jpg",
+        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": 1,
+      "id": 3
+    },
+    {
+      "title": "Sleeve Shirt Womens",
+      "description": "Cotton Solid Color Professional Wear Sleeve Shirt Womens Work Blouses Wholesale Clothing Casual Plain Custom Top OEM Customized",
+      "price": 90,
+      "discountPercentage": 10.89,
+      "rating": 4.26,
+      "stock": 39,
+      "brand": "Professional Wear",
+      "category": "tops",
+      "thumbnail": "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/36/1.jpg",
+        "https://i.dummyjson.com/data/products/36/2.webp",
+        "https://i.dummyjson.com/data/products/36/3.webp",
+        "https://i.dummyjson.com/data/products/36/4.jpg",
+        "https://i.dummyjson.com/data/products/36/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": 1,
+      "id": 4
+    },
+    {
+      "title": "Fog Scent Xpressio Perfume",
+      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+      "price": 13,
+      "discountPercentage": 8.14,
+      "rating": 4.59,
+      "stock": 61,
+      "brand": "Fog Scent Xpressio",
+      "category": "fragrances",
+      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+      "images": [
+        "https://i.dummyjson.com/data/products/13/1.jpg",
+        "https://i.dummyjson.com/data/products/13/2.png",
+        "https://i.dummyjson.com/data/products/13/3.jpg",
+        "https://i.dummyjson.com/data/products/13/4.jpg",
+        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+      ],
+      "quantity": 1,
+      "user": 1,
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        },
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 3
+        },
+        {
+          "title": "Sleeve Shirt Womens",
+          "description": "Cotton Solid Color Professional Wear Sleeve Shirt Womens Work Blouses Wholesale Clothing Casual Plain Custom Top OEM Customized",
+          "price": 90,
+          "discountPercentage": 10.89,
+          "rating": 4.26,
+          "stock": 39,
+          "brand": "Professional Wear",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/36/1.jpg",
+            "https://i.dummyjson.com/data/products/36/2.webp",
+            "https://i.dummyjson.com/data/products/36/3.webp",
+            "https://i.dummyjson.com/data/products/36/4.jpg",
+            "https://i.dummyjson.com/data/products/36/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 4
+        },
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.png",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/4.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 5
+        }
+      ],
+      "totalCartValue": 4200,
+      "totalItems": 5,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "addresses": [
+          {
+            "name": "arun ",
+            "email": "test@gmail.com",
+            "phone": "8324838423",
+            "street": "ashdfsdf",
+            "city": "rath",
+            "state": "uttar pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "afsfdadsf",
+            "email": "test@gmail.com",
+            "phone": "4545345343",
+            "street": "asfdfdf",
+            "city": "asdfasdf",
+            "state": "adffga",
+            "pinCode": "234322"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": null,
+      "id": 1
     }
   ]
 }
