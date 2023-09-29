@@ -13,7 +13,10 @@ import {
   selectLoggedInUser,
   updateUserAsync,
 } from "../features/auth/authSlice";
-import { createOrderAsync } from "../features/orders/orderSlice";
+import {
+  createOrderAsync,
+  selectCurrentOrder,
+} from "../features/orders/orderSlice";
 
 function Checkout() {
   const {
@@ -25,6 +28,7 @@ function Checkout() {
   const user = useSelector(selectLoggedInUser);
   const dispatch = useDispatch();
   const items = useSelector(selectedItems);
+  const currOrder = useSelector(selectCurrentOrder);
   const [open, setOpen] = useState(true);
   const [selectedAddress, setSelectedAddress] = useState(null);
   const [paymentMethod, setPaymentMethod] = useState("cash");
@@ -53,15 +57,21 @@ function Checkout() {
   };
 
   const handleOrder = (e) => {
-    const order = {
-      items,
-      totalCartValue,
-      totalItems,
-      user,
-      paymentMethod,
-      selectedAddress,
-    };
-    dispatch(createOrderAsync(order));
+    if (selectedAddress && paymentMethod) {
+      const order = {
+        items,
+        totalCartValue,
+        totalItems,
+        user,
+        paymentMethod,
+        selectedAddress,
+        status: "pending", // other status can be delivered, success
+      };
+      dispatch(createOrderAsync(order));
+      // need to redirect from here to a new page of order success.
+    } else {
+      // TODO: we need to show error message here
+    }
     // TODO: Redirect to order-success page after purchase
     // TODO: Clear cart after order
     // TODO: On server change the stock number of items
@@ -70,6 +80,12 @@ function Checkout() {
   return (
     <>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
+      {currOrder && (
+        <Navigate
+          to={`/order-success/${currOrder.id}`}
+          replace={true}
+        ></Navigate>
+      )}
       <div className="mt-8 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
           <div className="lg:col-span-3">
