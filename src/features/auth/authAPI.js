@@ -11,7 +11,6 @@ export function createUser(userData) {
   });
 }
 
-// A mock function to mimic making an async request for data
 export function checkUser(loginInfo) {
   return new Promise(async (resolve, reject) => {
     const email = loginInfo.email;
@@ -24,5 +23,11 @@ export function checkUser(loginInfo) {
     } else {
       reject({ message: "Wrong Credentials" });
     }
+  });
+}
+
+export function signOut() {
+  return new Promise(async (resolve) => {
+    resolve({ data: "Successfully Signed out" });
   });
 }
