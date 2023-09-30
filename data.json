@@ -2406,50 +2406,7 @@
       "id": 1
     }
   ],
-  "cart": [
-    {
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 1
-    },
-    {
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 1,
-      "id": 2
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "items": [
@@ -2804,6 +2761,266 @@
       },
       "status": "pending",
       "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalCartValue": 1098,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "john wick",
+        "email": "test@gmail.com",
+        "phone": "8364812384",
+        "street": "177, Bhatiyana",
+        "city": "Rath",
+        "state": "Uttar Pradesh",
+        "pinCode": "210431"
+      },
+      "status": "pending",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "Mornadi Velvet Bed",
+          "description": "Mornadi Velvet Bed Base with Headboard Slats Support Classic Style Bedroom Furniture Bed Set",
+          "price": 40,
+          "discountPercentage": 17,
+          "rating": 4.16,
+          "stock": 140,
+          "brand": "Furniture Bed Set",
+          "category": "furniture",
+          "thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/31/1.jpg",
+            "https://i.dummyjson.com/data/products/31/2.jpg",
+            "https://i.dummyjson.com/data/products/31/3.jpg",
+            "https://i.dummyjson.com/data/products/31/4.jpg",
+            "https://i.dummyjson.com/data/products/31/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Mornadi Velvet Bed",
+          "description": "Mornadi Velvet Bed Base with Headboard Slats Support Classic Style Bedroom Furniture Bed Set",
+          "price": 40,
+          "discountPercentage": 17,
+          "rating": 4.16,
+          "stock": 140,
+          "brand": "Furniture Bed Set",
+          "category": "furniture",
+          "thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/31/1.jpg",
+            "https://i.dummyjson.com/data/products/31/2.jpg",
+            "https://i.dummyjson.com/data/products/31/3.jpg",
+            "https://i.dummyjson.com/data/products/31/4.jpg",
+            "https://i.dummyjson.com/data/products/31/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalCartValue": 80,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "john",
+        "email": "test@gmail.com",
+        "phone": "8364812384",
+        "street": "177, Bhatiyana",
+        "city": "Rath",
+        "state": "Uttar Pradesh",
+        "pinCode": "210431"
+      },
+      "status": "pending",
+      "id": 5
     }
   ]
 }

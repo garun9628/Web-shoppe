@@ -16,6 +16,8 @@ export function UserProfile() {
   const [selectedEditIndex, setSelectedEditIndex] = useState(-1);
   const [showAddAddressForm, setShowAddAddressForm] = useState(false);
 
+  // TODO: we will add payment section when we work on backend
+
   const handleEdit = (updatedAddress, index) => {
     const newUser = { ...user, addresses: [...user.addresses] }; // for shallow copy issue
     newUser.addresses.splice(index, 1, updatedAddress);
@@ -51,13 +53,15 @@ export function UserProfile() {
   return (
     <div>
       <div className="mt-8 mx-auto bg-white max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
-          <h1 className="text-4xl my-4 font-bold tracking-tight text-gray-900">
-            Name: {user.name}
-          </h1>
-          <h3 className="text-xl my-4 font-bold tracking-tight text-red-900">
-            Email: {user.email}
-          </h3>
+        <div className="border-t flex items-center justify-center content-center border-gray-200 px-4 py-6 sm:px-6">
+          <div>
+            <h1 className="text-3xl my-4 font-bold tracking-tight text-gray-900">
+              Name: {user.name ? user.name : "My Name"}
+            </h1>
+            <h3 className="text-xl my-4 font-bold tracking-tight text-red-900">
+              Email: {user.email}
+            </h3>
+          </div>
         </div>
 
         <div className="border-t border-gray-200 px-6 py-6 sm:px-6">
@@ -415,8 +419,8 @@ export function UserProfile() {
                   </div>
                 </form>
               ) : null}
-              <div className="flex justify-between gap-x-6 py-5 px-5 border-solid border-2 border-gray-200">
-                <div className="flex min-w-0 gap-x-4">
+              <div className="grid grid-cols-3 gap-x-6 py-5 px-5 border-solid border-2 border-gray-200">
+                <div className="flex items-center justify-center min-w-0 gap-x-4">
                   <div className="min-w-0 flex-auto">
                     <p className="text-sm font-semibold leading-6 text-gray-900">
                       {address.name}
@@ -429,15 +433,17 @@ export function UserProfile() {
                     </p>
                   </div>
                 </div>
-                <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
-                  <p className="text-sm leading-6 text-gray-900">
-                    {address.phone}
-                  </p>
-                  <p className="text-sm leading-6 text-gray-500">
-                    {address.city}
-                  </p>
+                <div className="flex items-center justify-center sm:flex sm:flex-col">
+                  <div className="">
+                    <p className="text-sm leading-6 text-gray-900">
+                      {address.phone}
+                    </p>
+                    <p className="text-sm leading-6 text-gray-500">
+                      {address.city}
+                    </p>
+                  </div>
                 </div>
-                <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
+                <div className="flex items-center justify-center sm:flex sm:flex-col sm:items-end">
                   <button
                     onClick={(e) => handleEditForm(e, index)}
                     type="button"
