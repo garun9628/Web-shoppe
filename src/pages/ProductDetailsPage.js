@@ -4,8 +4,9 @@ import Navbar from "../features/navbar/Navbar";
 function ProductDetailsPage() {
   return (
     <div>
-      <Navbar></Navbar>
-      <ProductDetails></ProductDetails>
+      <Navbar>
+        <ProductDetails></ProductDetails>
+      </Navbar>
     </div>
   );
 }

@@ -8,7 +8,7 @@ import {
   selectBrands,
   selectCategories,
   selectTotalItems,
-} from "../productSlice";
+} from "../../product/productSlice";
 import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import {
@@ -36,10 +36,9 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function ProductList() {
+export default function AdminProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
-  console.log("products", products);
   const categories = useSelector(selectCategories);
   const brands = useSelector(selectBrands);
   const totalItems = useSelector(selectTotalItems);
@@ -94,7 +93,6 @@ export default function ProductList() {
   useEffect(() => {
     const pagination = { _page: page, _limit: ITEMS_PER_PAGE };
     dispatch(fetchProductsByFilterAsync({ filter, sort, pagination }));
-    // TODO: Server will filter delete products
   }, [dispatch, filter, sort, page]);
 
   useEffect(() => {
@@ -105,7 +103,6 @@ export default function ProductList() {
     dispatch(fetchCategoriesAsync());
     dispatch(fetchBrandsAsync());
   }, [dispatch]);
-
   return (
     <div className="bg-white">
       <div>
@@ -200,6 +197,13 @@ export default function ProductList() {
 
               {/* Product grid */}
               <div className="lg:col-span-3">
+                <div>
+                  <Link to="/admin/product-form">
+                    <button className="my-4 mx-10 rounded-lg bg-blue-600 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                      Add New Product
+                    </button>
+                  </Link>
+                </div>
                 <ProductsGrid products={products}></ProductsGrid>
               </div>
               {/* Product grid end */}
@@ -519,8 +523,23 @@ function ProductsGrid({ products }) {
                       </p>
                     </div>
                   </div>
+                  {product.deleted && (
+                    <div>
+                      <p className="mt-2 text-sm text-red-400">
+                        Product deleted
+                      </p>
+                    </div>
+                  )}
                 </div>
               </Link>
+              <div className="mt-5">
+                <Link
+                  to={`/admin/product-form/edit/${product.id}`}
+                  className="my-4 rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Edit Product
+                </Link>
+              </div>
             </div>
           ))}
         </div>

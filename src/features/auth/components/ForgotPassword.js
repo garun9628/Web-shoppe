@@ -68,7 +68,7 @@ export default function ForgotPassword() {
             Back to{" "}
             <Link
               to="/login"
-              className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              className="cursor-pointer font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
               Login
             </Link>
