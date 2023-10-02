@@ -2904,7 +2904,7 @@
         "state": "uttar pradesh",
         "pinCode": "210431"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 1
     },
     {
@@ -3372,6 +3372,662 @@
       },
       "status": "pending",
       "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1000,
+          "discountPercentage": "11",
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg"
+          ],
+          "discountedPercentage": null,
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalCartValue": 890,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Arun Gupta",
+        "email": "test@gmail.com",
+        "phone": "1123456789",
+        "street": "177, Bhatiyana",
+        "city": "Rath",
+        "state": "Uttar Pradesh",
+        "pinCode": "210431"
+      },
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalCartValue": 1346,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "hello",
+        "email": "test@gmail.com",
+        "phone": "0624343403",
+        "street": "177, Bhatiyana",
+        "city": "Rath",
+        "state": "Uttar Pradesh",
+        "pinCode": "210431"
+      },
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1749,
+          "discountPercentage": 11.02,
+          "rating": 4.57,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+          "images": [
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/4.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalCartValue": 1556,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "hello user welcome",
+        "email": "test@gmail.com",
+        "phone": "0624343403",
+        "street": "177, Bhatiyana",
+        "city": "Rath",
+        "state": "Uttar Pradesh",
+        "pinCode": "210431"
+      },
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "HP Pavilion 15-DK1056WM",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 1099,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+          "images": [
+            "https://i.dummyjson.com/data/products/10/1.jpg",
+            "https://i.dummyjson.com/data/products/10/2.jpg",
+            "https://i.dummyjson.com/data/products/10/3.jpg",
+            "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalCartValue": 1031,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "john wick",
+        "email": "test@gmail.com",
+        "phone": "8364812384",
+        "street": "177, Bhatiyana",
+        "city": "Rath",
+        "state": "Uttar Pradesh",
+        "pinCode": "210431"
+      },
+      "status": "pending",
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "title": "Brown Perfume",
+          "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+          "price": 40,
+          "discountPercentage": 15.66,
+          "rating": 4,
+          "stock": 52,
+          "brand": "Royal_Mirage",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/12/1.jpg",
+            "https://i.dummyjson.com/data/products/12/2.jpg",
+            "https://i.dummyjson.com/data/products/12/3.png",
+            "https://i.dummyjson.com/data/products/12/4.jpg",
+            "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalCartValue": 34,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "naruto",
+        "email": "test@gmail.com",
+        "phone": "1223456778",
+        "street": "japan",
+        "city": "japan",
+        "state": "japan",
+        "pinCode": "123456"
+      },
+      "status": "pending",
+      "id": 10
+    },
+    {
+      "items": [
+        {
+          "title": "Tree Oil 30ml",
+          "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+          "price": 12,
+          "discountPercentage": 4.09,
+          "rating": 4.52,
+          "stock": 78,
+          "brand": "Hemani Tea",
+          "category": "skincare",
+          "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/17/1.jpg",
+            "https://i.dummyjson.com/data/products/17/2.jpg",
+            "https://i.dummyjson.com/data/products/17/3.jpg",
+            "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalCartValue": 12,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty98765@",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "john",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun",
+            "email": "arun.gupta12123@gmail.com",
+            "phone": "1233456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "Arun Gupta",
+            "email": "test@gmail.com",
+            "phone": "1123456789",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "naruto",
+            "email": "test@gmail.com",
+            "phone": "1223456778",
+            "street": "japan",
+            "city": "japan",
+            "state": "japan",
+            "pinCode": "123456"
+          },
+          {
+            "name": "john wick",
+            "email": "test@gmail.com",
+            "phone": "8364812384",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          },
+          {
+            "name": "hello user welcome",
+            "email": "test@gmail.com",
+            "phone": "0624343403",
+            "street": "177, Bhatiyana",
+            "city": "Rath",
+            "state": "Uttar Pradesh",
+            "pinCode": "210431"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "john",
+        "email": "test@gmail.com",
+        "phone": "8364812384",
+        "street": "177, Bhatiyana",
+        "city": "Rath",
+        "state": "Uttar Pradesh",
+        "pinCode": "210431"
+      },
+      "status": "pending",
+      "id": 11
     }
   ]
 }

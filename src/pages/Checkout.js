@@ -14,6 +14,7 @@ import {
   createOrderAsync,
   selectCurrentOrder,
 } from "../features/orders/orderSlice";
+import { discountedPrice } from "../app/constants";
 
 function Checkout() {
   const {
@@ -31,7 +32,7 @@ function Checkout() {
   const [paymentMethod, setPaymentMethod] = useState("cash");
 
   const totalCartValue = items.reduce((amount, item) => {
-    return item.price * item.quantity + amount;
+    return discountedPrice(item) * item.quantity + amount;
   }, 0);
   const totalItems = items.reduce((count, item) => {
     return item.quantity + count;
@@ -90,7 +91,6 @@ function Checkout() {
               noValidate
               className="bg-white px-5 py-12 mt-8"
               onSubmit={handleSubmit((data) => {
-                console.log(data);
                 dispatch(
                   updateUserAsync({
                     ...user,
@@ -372,7 +372,7 @@ function Checkout() {
                               <h3>
                                 <a href={item.href}>{item.title}</a>
                               </h3>
-                              <p className="ml-4">${item.price}</p>
+                              <p className="ml-4">${discountedPrice(item)}</p>
                             </div>
                             <p className="mt-1 text-sm text-gray-500">
                               {item.brand}

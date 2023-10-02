@@ -67,7 +67,6 @@ export function fetchProductsByFilter(filter, sort, pagination) {
   // pagination = {_page: 1, _limit: 10};
 
   // TODO: Server will filter delete products in case of non-admin
-  console.log(pagination);
   for (let key in pagination) {
     queryString += `${key}=${pagination[key]}&`;
   }
@@ -78,7 +77,7 @@ export function fetchProductsByFilter(filter, sort, pagination) {
     );
     const data = await response.json();
     const totalItems = await response.headers.get("X-Total-Count");
-    resolve({ data: { products: data, totalItems } });
+    resolve({ data: { products: data, totalItems: +totalItems } });
   });
 }
 
