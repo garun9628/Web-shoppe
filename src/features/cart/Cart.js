@@ -2,6 +2,7 @@ import React, { useState, Fragment } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
   deleteItemFromCartAsync,
+  selectCartStatus,
   selectedItems,
   updateCartAsync,
 } from "./cartSlice";
@@ -9,11 +10,13 @@ import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, Navigate } from "react-router-dom";
 import { discountedPrice } from "../../app/constants";
+import { Grid } from "react-loader-spinner";
 
 export default function Cart() {
   const dispatch = useDispatch();
   const [open, setOpen] = useState(true);
   const items = useSelector(selectedItems);
+  const status = useSelector(selectCartStatus);
   const totalCartValue = items.reduce((amount, item) => {
     return discountedPrice(item) * item.quantity + amount;
   }, 0);
@@ -37,6 +40,18 @@ export default function Cart() {
             Cart
           </h1>
           <div className="flow-root">
+            {status === "loading" ? (
+              <Grid
+                height="80"
+                width="80"
+                color="rgb(79, 70, 229)"
+                ariaLabel="grid-loading"
+                radius="12.5"
+                wrapperStyle={{}}
+                wrapperClass=""
+                visible={true}
+              />
+            ) : null}
             <ul role="list" className="-my-6 divide-y divide-gray-200">
               {items.map((item) => (
                 <li key={item.id} className="flex py-6">

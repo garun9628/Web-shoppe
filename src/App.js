@@ -28,11 +28,19 @@ import AdminHome from "./pages/AdminHome";
 import AdminProductDetailsPage from "./pages/AdminProductDetailsPage";
 import AdminProductFormPage from "./pages/AdminProductFormPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
+import { positions, Provider } from "react-alert";
+import AlertTemplate from "react-alert-template-basic";
+
+const options = {
+  timeout: 5000,
+  position: positions.BOTTOM_LEFT,
+};
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
+      // TODO: When any user opens the application without login they should be able to see homepage with products and filters option and also can show a box with login and cancel option. When user add the product to the cart and still haven't logged in, product must added to the cart and if user further go for checkout option then user must login or signup first before checkout page.
       <Protected>
         <Home></Home>
       </Protected>
@@ -78,7 +86,6 @@ const router = createBrowserRouter([
       </Protected>
     ),
   },
-
   {
     path: "/admin/product-details/:id",
     element: (
@@ -148,7 +155,9 @@ function App() {
   }, [dispatch, user]);
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <Provider template={AlertTemplate} {...options}>
+        <RouterProvider router={router} />
+      </Provider>
     </div>
   );
 }
