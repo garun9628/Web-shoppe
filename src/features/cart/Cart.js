@@ -11,10 +11,12 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, Navigate } from "react-router-dom";
 import { discountedPrice } from "../../app/constants";
 import { Grid } from "react-loader-spinner";
+import Modal from "../common/Modal";
 
 export default function Cart() {
   const dispatch = useDispatch();
   const [open, setOpen] = useState(true);
+  const [openModal, setOpenModal] = useState(null);
   const items = useSelector(selectedItems);
   const status = useSelector(selectCartStatus);
   const totalCartValue = items.reduce((amount, item) => {
@@ -31,9 +33,11 @@ export default function Cart() {
   const handleRemove = (e, itemId) => {
     dispatch(deleteItemFromCartAsync(itemId));
   };
+
   return (
     <>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
+
       <div className="mt-8 mx-auto bg-white max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
           <h1 className="text-4xl my-4 font-bold tracking-tight text-gray-900">
@@ -96,8 +100,17 @@ export default function Cart() {
                       </div>
 
                       <div className="flex">
+                        <Modal
+                          title={`Delete ${item.title}`}
+                          message={`Are you sure you want to delete ${item.title}?`}
+                          dangerOption="Delete"
+                          cancelOption="Cancel"
+                          deleteAction={(e) => handleRemove(e, item.id)}
+                          cancelAction={(e) => setOpenModal(null)}
+                          showModal={openModal === item.id}
+                        ></Modal>
                         <button
-                          onClick={(e) => handleRemove(e, item.id)}
+                          onClick={(e) => setOpenModal(item.id)}
                           type="button"
                           className="font-medium text-indigo-600 hover:text-indigo-500"
                         >
