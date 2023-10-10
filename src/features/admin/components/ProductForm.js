@@ -72,7 +72,7 @@ function ProductForm() {
           delete product["image3"];
           product.price = +product.price;
           product.stock = +product.stock;
-          product.discountedPercentage = +product.discountedPercentage;
+          product.discountPercentage = +product.discountPercentage;
           if (params.id) {
             product.id = params.id;
             product.rating = selectedProduct.rating || 0;
